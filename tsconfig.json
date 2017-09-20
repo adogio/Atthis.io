@@ -1,0 +1,12 @@
+{
+    "compilerOptions": {
+        "removeComments": true
+    },
+    "include": [
+        "dogDOM/**/*",
+        "ReDog/**/*"
+    ],
+    "exclude": [
+        "node_modules"
+    ]
+}
