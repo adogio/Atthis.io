@@ -1,6 +1,8 @@
 {
     "compilerOptions": {
-        "removeComments": true
+        "removeComments": true,
+        "sourceMap": true,
+        "jsx": "react"
     },
     "include": [
         "dogDOM/**/*",

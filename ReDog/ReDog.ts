@@ -1,3 +1,5 @@
+import vdom from '../dogDOM/dogDOM';
+
 export default class {
     private t;
     constructor() {
@@ -5,6 +7,6 @@ export default class {
     }
 
     test() {
-        return 1;
+        return vdom();
     }
 }
