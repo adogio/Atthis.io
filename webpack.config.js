@@ -21,12 +21,12 @@ module.exports = {
                 exclude: /node_modules/
             },
             {
-                test: /(\.jsx|\.js)$/,
+                test: /(\.js)$/,
                 use: {
                     loader: "babel-loader",
                     options: {
                         presets: [
-                            "es2015", "react"
+                            "es2015"
                         ]
                     }
                 },

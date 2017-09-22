@@ -1,12 +1,13 @@
 import vdom from '../dogDOM/dogDOM';
 
 export default class {
-    private t;
-    constructor() {
-        this.t = 10;
+    private rootElement: any;
+    private rootDOM: vdom;
+    constructor(docelement) {
+        this.rootElement = docelement;
     }
 
-    test() {
-        return vdom();
+    mount() {
+        this.rootElement.innerHTML = this.rootDOM.render();
     }
 }
